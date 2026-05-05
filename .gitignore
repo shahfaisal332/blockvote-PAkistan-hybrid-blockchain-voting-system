@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+Backend/node_modules/
+frontend/node_modules/
+
+# Environment variables - YE SABSE IMPORTANT HAI
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Backend/.env
+frontend/.env
+
+# Build outputs
+dist/
+build/
+Backend/dist/
+frontend/dist/
+
+# Database
+*.sqlite
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
